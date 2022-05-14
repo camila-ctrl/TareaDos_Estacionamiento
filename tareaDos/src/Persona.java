@@ -1,6 +1,6 @@
 public class Persona {
     String nombre;
-    int cuentaCorriente;
+    int cuentaCorriente = 0;
 
     public Persona(String string) {
         this.nombre = string;
@@ -19,6 +19,6 @@ public class Persona {
     }
 
     public void setCuentaCorriente(int cuentaCorriente) {
-        this.cuentaCorriente = cuentaCorriente;
+        this.cuentaCorriente += cuentaCorriente;
     }
 }
