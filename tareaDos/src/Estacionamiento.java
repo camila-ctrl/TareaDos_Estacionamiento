@@ -1,4 +1,4 @@
-
+//INTEGRANTES: Mathias Sellanes y Camila Pérez
 import java.util.ArrayList;
 
 public class Estacionamiento {
@@ -74,7 +74,7 @@ public class Estacionamiento {
     static void nuevoDia() {
         System.out.println("────────────────────────────────────────────────────────────");
         System.out.println("¡Nuevo día!");
-        System.out.println("────────────────────────────────────────────────────────────");
+        System.out.println("");
         if (lugares.size() != 0) {
             System.out.println("Los autos que están dentro del estacionamiento son:");
             for (Auto auto : lugares) {
@@ -89,6 +89,7 @@ public class Estacionamiento {
 
     static void calcular() {
         if (clientes.size() == 0) {
+            System.out.println("");
             System.out.println("────────────────────────────────────────────────────────────");
             System.out.println("");
             System.out.println("Sentimos informarle que...");
@@ -101,7 +102,7 @@ public class Estacionamiento {
             System.out.println("");
             System.out.println("────────────────────────────────────────────────────────────");
             System.out.println("¡Hora del reporte de sus clientes!");
-            System.out.println("────────────────────────────────────────────────────────────");
+            System.out.println("");
             for (Persona cliente : clientes) {
                 System.out.println(
                         "- El cliente " + cliente.getNombre() + " debe " + cliente.getCuentaCorriente() + " pesos");

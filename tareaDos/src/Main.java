@@ -1,3 +1,4 @@
+//INTEGRANTES: Mathias Sellanes y Camila Pérez
 public class Main {
     public static void main(String args[]) {
         
@@ -15,16 +16,16 @@ public class Main {
 
         
         Estacionamiento.entra(juanAuto1);
-        Estacionamiento.entra(anaAuto1);
+        // Estacionamiento.entra(anaAuto1);
 
         // Estacionamiento.sale(juanAuto1);
-        // Estacionamiento.sale(anaAuto1);
+        Estacionamiento.sale(anaAuto1);
         
-        // Estacionamiento.calcular();        
+        Estacionamiento.calcular();        
 
         Estacionamiento.entra(felipeAuto1);
         Estacionamiento.nuevoDia();
-        Estacionamiento.entra(felipeAuto2);
+        // Estacionamiento.entra(felipeAuto2);
         
 
         Estacionamiento.calcular();        

@@ -1,3 +1,4 @@
+//INTEGRANTES: Mathias Sellanes y Camila Pérez
 public class Auto {
     static final String CHEVROLET = "CHEVROLET";
     static final String FIAT = "FIAT";

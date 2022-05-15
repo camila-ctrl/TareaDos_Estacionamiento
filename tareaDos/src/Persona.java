@@ -1,3 +1,4 @@
+//INTEGRANTES: Mathias Sellanes y Camila Pérez
 public class Persona {
     String nombre;
     int cuentaCorriente = 0;

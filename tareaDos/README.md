@@ -1,18 +1,15 @@
-## Getting Started
+## Actividad 2 -> "Estacionamiento"
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+¡Te damos la bienvenida a nuestra aplicación!
+## Particularidades
 
-## Folder Structure
+Esta aplicación contiene detalles extras:
 
-The workspace contains two folders by default, where:
+- `Mensajes personalizados`: En el caso de que un auto quiera entrar estando ya dentro del estacionamiento, la app muestra un mensaje diferente. Al igual que si un auto que está fuera, intenta salir. 
+- `¿Y si siempre estuvo vacío?`: En nuestra aplicación también tenemos contemplado el caso de que a la hora de calcular lo que deben los clientes, nunca haya existido alguno.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `" Me gustaría tener dos autos B) "`: ¡También tenemos lugar para ti! En este estacionamiento cada cliente puede guardar todos los autos que desee.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Propuestas futuras
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Nuestro plan a futuro es poder crear una interfaz donde se puedan ver los lugares vacíos de forma más clara y que cada auto mantenga su lugar. Ya que actualmente si se retira el auto en la posición 2, el de la posición 3 ocupa el lugar 2.
