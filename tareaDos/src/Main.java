@@ -14,7 +14,7 @@ public class Main {
         Auto felipeAuto2 = new Auto(Auto.MERCEDEZ_BENZ, "BFD-125", felipe);
 
         
-        Estacionamiento.entra(juanAuto1);
+        // Estacionamiento.entra(juanAuto1);
         Estacionamiento.entra(anaAuto1);
 
         // Estacionamiento.sale(juanAuto1);
@@ -23,15 +23,15 @@ public class Main {
         // Estacionamiento.calcular();        
 
         Estacionamiento.entra(felipeAuto1);
+        Estacionamiento.nuevoDia();
+        Estacionamiento.entra(felipeAuto2);
         
-        // Estacionamiento.nuevoDia();
 
         Estacionamiento.calcular();        
 
         
-        // Estacionamiento.entra(felipeAuto2);
         // Estacionamiento.nuevoDia();
-
+        
 
 
 
