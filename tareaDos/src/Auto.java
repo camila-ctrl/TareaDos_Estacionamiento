@@ -1,7 +1,10 @@
 public class Auto {
-    static final String MERCEDEZ_BENZ = "MERCEDEZ_BENZ";
+    static final String CHEVROLET = "CHEVROLET";
     static final String FIAT = "FIAT";
     static final String PEUGEOT = "PEUGEOT";
+    static final String FORD = "FORD";
+    static final String BMW = "BMW";
+    static final String AUDI = "AUDI";
     
     String marca;
     String placa;
