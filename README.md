@@ -1,6 +1,6 @@
-## Actividad 2 -> "Estacionamiento"
+## Actividad 2 - "Estacionamiento"
 
-¡Te damos la bienvenida a nuestra aplicación!
+¡Mathias Sellanes y Camila Pérez te dan la bienvenida a esta aplicación!
 ## Particularidades
 
 Esta aplicación contiene detalles extras:
@@ -12,4 +12,4 @@ Esta aplicación contiene detalles extras:
 
 ## Propuestas futuras
 
-Nuestro plan a futuro es poder crear una interfaz donde se puedan ver los lugares vacíos de forma más clara y que cada auto mantenga su lugar. Ya que actualmente si se retira el auto en la posición 2, el de la posición 3 ocupa el lugar 2.
+Nuestro plan a futuro es poder crear una interfaz donde se puedan ver los lugares vacíos de forma rápida con una "imagen" y que cada auto mantenga su lugar. Ya que actualmente si se retira el auto en la posición 2, el de la posición 3 ocupa el lugar 2.
