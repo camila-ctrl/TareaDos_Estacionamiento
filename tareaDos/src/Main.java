@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String args[]) {
         
-        Estacionamiento.inicializar(2, 60, 180);
+        Estacionamiento.inicializar("AparClic", 2, 60, 180);
         
         Persona juan = new Persona("Juan");
         Persona ana = new Persona("Ana");
@@ -17,18 +17,25 @@ public class Main {
         Estacionamiento.entra(juanAuto1);
         Estacionamiento.entra(anaAuto1);
 
-        // Estacionamiento.entra(felipeAuto1);
-        
         // Estacionamiento.sale(juanAuto1);
-        // Estacionamiento.nuevoDia();
+        // Estacionamiento.sale(anaAuto1);
         
-        // Estacionamiento.entra(felipeAuto2);
+        // Estacionamiento.calcular();        
 
-
-        // Estacionamiento.entra(juanAuto1);
-
+        Estacionamiento.entra(felipeAuto1);
+        
+        // Estacionamiento.nuevoDia();
 
         Estacionamiento.calcular();        
+
+        
+        // Estacionamiento.entra(felipeAuto2);
+        // Estacionamiento.nuevoDia();
+
+
+
+
+
         
     }
 }
